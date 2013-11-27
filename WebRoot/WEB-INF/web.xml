@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" 
+	xmlns="http://java.sun.com/xml/ns/j2ee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MarksheetCTL</servlet-name>
+    <servlet-class>com.ctl.MarksheetCTL</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MarksheetListCTL</servlet-name>
+    <servlet-class>com.ctl.MarksheetListCTL</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginCTL</servlet-name>
+    <servlet-class>com.ctl.LoginCTL</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LogoutCTL</servlet-name>
+    <servlet-class>com.ctl.LogoutCTL</servlet-class>
+  </servlet>
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>MarksheetCTL</servlet-name>
+    <url-pattern>/MarksheetCTL</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MarksheetListCTL</servlet-name>
+    <url-pattern>/MarksheetListCTL</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginCTL</servlet-name>
+    <url-pattern>/LoginCTL</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogoutCTL</servlet-name>
+    <url-pattern>/LogoutCTL</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>Login.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
